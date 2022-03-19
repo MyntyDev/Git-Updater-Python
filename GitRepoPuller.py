@@ -13,8 +13,8 @@ g = git.cmd.Git(git_dir)
 
 try:
     # Pull contents of git repository.
-    print("Found repository...")
     g.pull()
+    print("Found repository...")
 except git.exc.GitCommandError:
     # Prints if the current working directory is not a git repository.
     print("You are not in a git repository.")
