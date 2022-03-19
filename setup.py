@@ -6,8 +6,4 @@ system("pip install -r requirements.txt")
 print()
 print()
 
-if platform.system() == "Windows":
-    system("py GitRepoPuller.py")
-
-else:
-    system("python3 GitRepoPuller.py")
+system("python GitRepoPuller.py")
